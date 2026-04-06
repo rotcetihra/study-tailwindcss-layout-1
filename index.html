@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ru" class="font-[Ubuntu]">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="
+				width=device-width, 
+				initial-scale=1.0"
+    />
+    <meta name="author" content="rotcetihra" />
+    <meta name="description" content="Учебный шаблон для отработки верстки на ванильном CSS." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css"
+      type="text/css"
+    />
+    <link rel="icon" href="favicon/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="favicon/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png" />
+    <link href="build/index.css" rel="stylesheet" type="text/css" />
+    <title>Крупнейшая коллекция природных артефактов</title>
+  </head>
+  <body class="bg-[#1d2f30] overflow-x-hidden">
+    <header class="flex justify-center p-2">
+      <div class="flex justify-between max-w-7xl mx-auto w-full">
+        <a
+          href="#"
+          aria-label="Главная"
+          class="flex items-center py-3 w-25 focus:outline focus:outline-[#bae249] bg-[url(/images/logo-white.png)] hover:bg-[url(/images/logo-green-1.png)] active:bg-[url(/images/logo-green-2.png)] bg-no-repeat bg-contain bg-center bg-origin-content"
+        >
+        </a>
+        <nav class="hidden lg:flex items-center">
+          <a
+            class="text-nowrap py-3 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+            href="#"
+          >
+            Каталог
+          </a>
+          <a
+            class="text-nowrap py-3 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+            href="#"
+          >
+            Галерея
+          </a>
+          <a
+            class="text-nowrap py-3 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+            href="#"
+          >
+            О лаборатории
+          </a>
+          <a
+            class="text-nowrap py-3 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+            href="#"
+          >
+            Контакты
+          </a>
+        </nav>
+        <div class="flex">
+          <a
+            href="#"
+            class="text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05] text-2xl py-2 px-6 flex justify-center items-center"
+          >
+            <i class="fi fi-rr-search leading-0"></i>
+          </a>
+          <a
+            href="#"
+            class="text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05] text-2xl py-2 px-6 flex justify-center items-center"
+          >
+            <i class="fi fi-rr-enter leading-0"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="bg-[url(/images/block1.png)] bg-cover bg-center bg-no-repeat">
+        <div class="bg-[rgb(0,0,0,0.5)] flex py-24 px-8 relative">
+          <nav
+            class="flex lg:hidden items-center sm:justify-center text-xl absolute top-0 left-0 overflow-x-scroll py-1 px-1 w-full"
+          >
+            <a
+              class="text-nowrap py-4 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+              href="#"
+            >
+              Каталог
+            </a>
+            <a
+              class="text-nowrap py-4 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+              href="#"
+            >
+              Галерея
+            </a>
+            <a
+              class="text-nowrap py-4 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+              href="#"
+            >
+              О лаборатории
+            </a>
+            <a
+              class="text-nowrap py-4 px-6 text-white hover:text-[#bae249] focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+              href="#"
+            >
+              Контакты
+            </a>
+          </nav>
+          <div class="max-w-7xl mx-auto w-full">
+            <div class="max-w-2xl">
+              <h1 class="text-3xl md:text-5xl text-white">
+                Крупнейшая коллекция природных артефактов
+              </h1>
+              <p class="my-4 text-mist-200 text-xl lg:text-lg">
+                Являясь всего лишь частью общей картины, интерактивные прототипы, которые
+                представляют собой яркий пример европейского типа политической и социальной
+                культуры.
+              </p>
+              <p>
+                <a
+                  class="text-[#bae249] text-2xl lg:text-lg hover:text-[#91ac46] focus:outline-[#91ac46] focus:outline active:text-[#688b05] flex items-center gap-2 max-w-min"
+                  href="#"
+                >
+                  <span>Исследовать</span>
+                  <i class="fi fi-rr-arrow-right leading-0"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-4">
+        <div class="max-w-7xl mx-auto w-full py-8 flex flex-col gap-8">
+          <div
+            class="flex justify-center sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 xl:gap-12"
+          >
+            <div
+              class="border border-[#0b1919] grid grid-rows-[1fr_1.5fr] w-full max-w-80 sm:max-w-none"
+            >
+              <div class="bg-[#0b1919] flex items-center p-4">
+                <img class="w-full" src="images/image2.png" alt="Fig. 1 (plant)" />
+              </div>
+              <div class="p-4 flex flex-col justify-between gap-4">
+                <div class="flex flex-col gap-4">
+                  <div class="text-white text-3xl lg:text-2xl">Fig. 1 (plant)</div>
+                  <div class="text-mist-300 text-xl lg:text-lg">
+                    Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся
+                    страны третьего мира своевременно верифицированы.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    class="inline-block text-[#bae249] text-xl lg:text-base border border-[#bae249] py-3 px-5 hover:bg-[#bae249] hover:text-[#1d2f30] focus:outline-[#bae249] focus:outline active:bg-[#688b05] active:border-[#688b05]"
+                    href="#"
+                  >
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hidden border border-[#0b1919] sm:grid grid-rows-[1fr_1.5fr]">
+              <div class="bg-[#0b1919] flex items-center p-4">
+                <img class="w-full" src="images/image3.png" alt="Fig. 2 (flower)" />
+              </div>
+              <div class="p-4 flex flex-col justify-between gap-4">
+                <div class="flex flex-col gap-4">
+                  <div class="text-white text-3xl lg:text-2xl">Fig. 2 (flower)</div>
+                  <div class="text-mist-300 text-xl lg:text-lg">
+                    Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и
+                    модернизации условий.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    class="inline-block text-[#bae249] text-xl lg:text-base border border-[#bae249] py-3 px-5 hover:bg-[#bae249] hover:text-[#1d2f30] focus:outline-[#bae249] focus:outline active:bg-[#688b05] active:border-[#688b05]"
+                    href="#"
+                  >
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hidden border border-[#0b1919] md:grid grid-rows-[1fr_1.5fr]">
+              <div class="bg-[#0b1919] flex items-center p-4">
+                <img class="w-full" src="images/image4.png" alt="Fig. 3 (leaf)" />
+              </div>
+              <div class="p-4 flex flex-col justify-between gap-4">
+                <div class="flex flex-col gap-4">
+                  <div class="text-white text-3xl lg:text-2xl">Fig. 3 (leaf)</div>
+                  <div class="text-mist-300 text-xl lg:text-lg">
+                    Лишь непосредственные участники прогресса неоднозначны и будут в равной степени
+                    предоставлены сами себе для работы.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    class="inline-block text-[#bae249] text-xl lg:text-base border border-[#bae249] py-3 px-5 hover:bg-[#bae249] hover:text-[#1d2f30] focus:outline-[#bae249] focus:outline active:bg-[#688b05] active:border-[#688b05]"
+                    href="#"
+                  >
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hidden border border-[#0b1919] lg:grid grid-rows-[1fr_1.5fr]">
+              <div class="bg-[#0b1919] flex items-center p-4">
+                <img class="w-full" src="images/image5.png" alt="Fig. 4 (wood)" />
+              </div>
+              <div class="p-4 flex flex-col justify-between gap-4">
+                <div class="flex flex-col gap-4">
+                  <div class="text-white text-2xl">Fig. 4 (wood)</div>
+                  <div class="text-mist-300 text-lg">
+                    Базовый вектор развития не даёт нам иного выбора, кроме определения новых
+                    предложений.
+                  </div>
+                </div>
+                <div>
+                  <a
+                    class="inline-block text-[#bae249] text-base border border-[#bae249] py-3 px-5 hover:bg-[#bae249] hover:text-[#1d2f30] focus:outline-[#bae249] focus:outline active:bg-[#688b05] active:border-[#688b05]"
+                    href="#"
+                  >
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-4">
+            <a
+              class="text-mist-300 hover:text-[#bae249] px-1 focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+              href="#"
+            >
+              <i class="fi fi-rr-arrow-left text-2xl leading-0"></i>
+            </a>
+            <div class="text-white">
+              <span>1 из </span>
+              <span class="inline sm:hidden">12</span>
+              <span class="hidden sm:inline md:hidden">6</span>
+              <span class="hidden md:inline lg:hidden">4</span>
+              <span class="hidden lg:inline">3</span>
+            </div>
+            <a
+              class="text-mist-300 hover:text-[#bae249] px-1 focus:outline focus:outline-[#bae249] active:text-[#688b05]"
+              href="#"
+            >
+              <i class="fi fi-rr-arrow-right text-2xl leading-0"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="px-4">
+        <div class="max-w-7xl mx-auto w-full py-8 flex flex-col gap-6">
+          <h2 class="text-white text-center md:text-left text-4xl">Новые артефакты</h2>
+          <div class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr] gap-8">
+            <div
+              class="overflow-x-scroll lg:overflow-hidden relative max-w-120 md:max-w-none mx-auto w-full"
+            >
+              <img
+                class="h-full lg:w-full max-w-none max-h-120"
+                src="images/image6.png"
+                alt="Новые артефакты"
+              />
+              <div
+                class="absolute lg:hidden left-4 bottom-4 text-mist-400 text-base w-full text-nowrap"
+              >
+                <span>Проведите, чтобы увидеть больше</span>
+                <i class="fi fi-rr-arrow-right leading-0"></i>
+              </div>
+            </div>
+            <div
+              class="bg-[#bae249] px-4 py-6 flex flex-col gap-4 justify-between max-w-120 mx-auto"
+            >
+              <div class="flex flex-col gap-4">
+                <h3 class="text-[#1d2f30] text-2xl">Kurische Nehrung 24</h3>
+                <p class="text-lg text-[#688b05]">
+                  Вот вам яркий пример современных тенденций - начало повседневной работы по
+                  формированию позиции выявляет срочную потребность методов управления процессами.
+                </p>
+                <p class="text-lg text-[#688b05]">
+                  Есть над чем задуматься: представители современных социальных резервов
+                  своевременно верифицированы.
+                </p>
+              </div>
+              <div>
+                <a
+                  class="text-nowrap text-[#1d2f30] hover:text-[#688b05] focus:outline-[#91ac46] focus:outline active:text-[#0b1919] flex items-center gap-2 max-w-min"
+                  href="#"
+                >
+                  <span class="text-xl">Читать далее</span>
+                  <i class="fi fi-rr-arrow-right text-2xl leading-0"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[url(/images/image7.png)] bg-no-repeat bg-cover bg-center">
+        <div class="bg-[rgb(0,0,0,0.5)] px-4">
+          <div class="max-w-7xl mx-auto w-full py-8 flex flex-col gap-4">
+            <div class="flex flex-col gap-4">
+              <h2 class="text-white text-4xl">Помочь проекту</h2>
+              <p class="text-mist-300 max-w-3xl text-xl lg:text-lg">
+                Равным образом, экономическая повестка сегодняшнего дня не даёт нам иного выбора,
+                кроме определения прогресса профессионального сообщества. Как принято считать,
+                элементы политического процесса рассмотрены исключительно в разрезе маркетинговых и
+                финансовых предпосылок.
+              </p>
+            </div>
+            <form class="flex flex-col gap-4">
+              <div>
+                <input
+                  class="bg-white placeholder:text-mist-300 hover:placeholder:text-white hover:bg-mist-300 hover:cursor-pointer focus:cursor-text focus:bg-white text-2xl lg:text-lg p-2 w-full lg:w-80 max-w-120 lg:max-w-none focus:outline-2 focus:outline-[#1d2f30] border-0"
+                  name="name"
+                  type="text"
+                  placeholder="Имя"
+                  aria-label="Имя"
+                />
+              </div>
+              <div>
+                <input
+                  class="bg-white placeholder:text-mist-300 hover:placeholder:text-white hover:bg-mist-300 hover:cursor-pointer focus:cursor-text focus:bg-white text-2xl lg:text-lg p-2 w-full lg:w-80 max-w-120 lg:max-w-none focus:outline-2 focus:outline-[#1d2f30] border-0"
+                  name="email"
+                  type="email"
+                  placeholder="Электронная почта"
+                  aria-label="Электронная почта"
+                />
+              </div>
+              <div>
+                <button
+                  class="py-2 px-6 text-[#1d2f30] bg-[#bae249] hover:bg-[#91ac46] cursor-pointer font-bold border-0 focus:outline-2 focus:outline-[#1d2f30] active:bg-[#688b05] text-2xl lg:text-lg w-full lg:w-auto max-w-120 lg:max-w-none"
+                  type="submit"
+                >
+                  Отправить
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="bg-[#0b1919] flex justify-center gap-6 py-4">
+        <a
+          href="#"
+          class="text-white text-3xl lg:text-lg hover:text-[#bae249] leading-0 focus:outline-[#bae249] focus:outline active:text-[#688b05]"
+        >
+          <i class="fi fi-brands-youtube"></i>
+        </a>
+        <a
+          href="#"
+          class="text-white text-3xl lg:text-lg hover:text-[#bae249] leading-0 focus:outline-[#bae249] focus:outline active:text-[#688b05]"
+        >
+          <i class="fi fi-brands-instagram"></i>
+        </a>
+        <a
+          href="#"
+          class="text-white text-3xl lg:text-lg hover:text-[#bae249] leading-0 focus:outline-[#bae249] focus:outline active:text-[#688b05]"
+        >
+          <i class="fi fi-brands-facebook"></i>
+        </a>
+        <a
+          href="#"
+          class="text-white text-3xl lg:text-lg hover:text-[#bae249] leading-0 focus:outline-[#bae249] focus:outline active:text-[#688b05]"
+        >
+          <i class="fi fi-brands-twitter"></i>
+        </a>
+      </div>
+      <div class="flex justify-center text-mist-400 py-1 text-xl lg:text-sm">f&amp;b ® 2020</div>
+    </footer>
+  </body>
+</html>
